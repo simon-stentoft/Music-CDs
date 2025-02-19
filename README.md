@@ -11,4 +11,6 @@ innerHTML with template literals
 cloneNode()
 HTML <template>
 Notice that all of them have their pros and cons.
+
+Example from lecturer of what the site could look like:
 ![image](https://github.com/user-attachments/assets/58263db7-37de-4b0e-99ae-d1ac2850f1c1)
