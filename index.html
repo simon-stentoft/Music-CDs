@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music CDs</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Music CDs</h1>
+    </header>
+    <main>
+      <section>
+        <form action="" id="addForm">
+          <label for="author">Author</label>
+          <input type="text" id="author" name="author" required />
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" required />
+          <label for="year">Year</label>
+          <input
+            type="number"
+            id="year"
+            name="year"
+            required
+            min="1900"
+            max="2025"
+          />
+          <button type="submit" id="addBtn">Add</button>
+        </form>
+      </section>
+      <template>
+        <div class="cd">
+          <h2>Author</h2>
+          <h2>Title</h2>
+          <h2>Year</h2>
+          <button class="deleteBtn">Delete</button>
+        </div>
+      </template>
+    </main>
+    <footer>
+      <p>&copy; 2025 Simon Heegaard</p>
+    </footer>
+  </body>
+</html>
