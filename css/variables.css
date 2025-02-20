@@ -1,4 +1,6 @@
 :root {
   --colorPrimary: black;
-  --colorSecondary: rgb(130, 5, 130);
+
+  --colorSecondary: red;
+  --colorTextSecondary: floralwhite;
 }
