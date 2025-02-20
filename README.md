@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/52cc2687-9898-481b-8d49-13d12e99c84b)
+
 1st semester Web dev bachelor mandatory assignment. 
 
 Description: 
