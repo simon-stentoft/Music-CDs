@@ -33,7 +33,6 @@ footer {
   background-color: var(--colorSecondary);
   color: var(--colorTextSecondary);
   @media (min-width: 768px) {
-    position: fixed;
     max-width: var(--maxWidth);
   }
 }
@@ -47,6 +46,7 @@ form {
     width: 5rem;
     height: 3rem;
     padding: 0.5rem;
+    cursor: pointer;
   }
 }
 
