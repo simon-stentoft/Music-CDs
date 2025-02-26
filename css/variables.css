@@ -4,5 +4,8 @@
   --colorSecondary: red;
   --colorTextSecondary: floralwhite;
 
+  --backgroundColortd: #f9f9f9;
+  --colorTableBorder: #ddd;
+
   --maxWidth: 1024px;
 }
