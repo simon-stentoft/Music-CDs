@@ -10,8 +10,8 @@ addForm.addEventListener("submit", function (e) {
   const title = this.title.value;
   const year = this.year.value;
   */
-  const author = e.target.author.value;
-  const title = e.target.title.value;
+  const author = e.target.author.value.trim(); //using trim() so input cant be empty
+  const title = e.target.title.value.trim();
   const year = e.target.year.value;
 
   const row = document.createElement("tr");

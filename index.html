@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music CDs</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js" defer></script>
   </head>
   <body>
@@ -16,11 +16,11 @@
         <form action="" id="addForm">
           <div class="text">
             <label for="author">Author</label>
-            <input type="text" id="author" name="author" required>
+            <input type="text" id="author" name="author" required />
           </div>
           <div class="text">
             <label for="title">Title</label>
-            <input type="text" id="title" name="title" required>
+            <input type="text" id="title" name="title" required />
           </div>
           <div class="text" id="yearField">
             <label for="year">Year</label>
@@ -30,7 +30,8 @@
               name="year"
               required
               min="1900"
-              max="2025">
+              max="2025"
+            />
           </div>
           <button type="submit" id="addBtn">Add</button>
         </form>
@@ -43,6 +44,7 @@
               <th>Title</th>
               <th>Year</th>
               <th></th>
+              <!-- th is an empty cell for delete button -->
             </tr>
           </thead>
           <tbody></tbody>
